@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Spring Boot Study</title>
+</head>
+<body>
+  <h1>Author List</h1>
+  <table>
+    <tr th:each="author: ${authors}">
+      <td th:text="${author.id}">ID</td>
+      <td th:text="${author.firstName}">First Name</td>
+      <td th:text="${author.lastName}">Last Name</td>
+    </tr>
+    <!-- <tr>
+      <td>1234</td>
+      <td>Spring in actions</td>
+      <td>Wrox</td>
+      <td>Wrox</td>
+    </tr> -->
+  </table>
+</body>
+</html>
