@@ -132,3 +132,5 @@ Thymeleaf Templates
 Learn Reference Code Learn for Spring Pet Clinic
 ================================================
    https://github.com/spring-projects/spring-petclinic
+   
+   https://github.com/springframeworkguru/sfg-pet-clinic
